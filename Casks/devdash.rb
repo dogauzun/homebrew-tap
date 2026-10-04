@@ -6,25 +6,25 @@ cask "devdash" do
     end
   end
 
-  version "1.0.0"
+  version "1.1.0"
 
   on_macos do
     on_arm do
-      sha256 "74dee0cc5f2a0d4c95ba85d33fbe0c30a418a9800cd340700faace54ed0b5501"
+      sha256 "70265cbf31d932a3873c1a9321af475f2d41839429a16fd09b2b68be9d192f0e"
       url "https://github.com/dogauzun/devdash/releases/download/v#{version}/devdash_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "37b611aab58ce3103f8b07f1db6626555a75900aae2078560a02b7a796ac9be6"
+      sha256 "22971af81bf356526784f002d62656d368b5ec7262133b1979120593fb5cb4e9"
       url "https://github.com/dogauzun/devdash/releases/download/v#{version}/devdash_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "1aa050cbd73efa038ea9365ec85b45468723c8ecc8b5d61dc20cb01ffd55af12"
+      sha256 "1e05cac9ab9ae46c8d2f9b92efac21a92aeea09dbc4183db338f8279a324e528"
       url "https://github.com/dogauzun/devdash/releases/download/v#{version}/devdash_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "85f39c139b265effc36f5c8d4a8d25b42697f50c1a373b4cce0b01f2c83a0e8f"
+      sha256 "0fcee32a479ae99c45c3c2251f7e6693a4fd3e6b32b17d78efa5fef37e3e9a23"
       url "https://github.com/dogauzun/devdash/releases/download/v#{version}/devdash_#{version}_linux_amd64.tar.gz"
     end
   end
